@@ -1,0 +1,16 @@
+
+/*  overFlow for two rows of text */
+
+h4{
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+/*  Overflow in one line text data */
+h4{
+   text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+}
